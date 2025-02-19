@@ -1,4 +1,7 @@
-# `getaddrinfo()`
+# Learning Socket Programming
+In this repository, I am learning socket programming from the book [Beej's guide to network programming](https://beej.us/guide/bgnet/)
+
+## `getaddrinfo()`
 Given node and service, which identify an  Internet  host and a service, getaddrinfo() returns one or more addrinfo
 structures,  each  of  which contains an Internet address that can be specified in a call to bind(2) or connect(2).
 The getaddrinfo()  function  combines  the  functionality provided  by  the  gethostbyname(3)  and getservbyname(3)
